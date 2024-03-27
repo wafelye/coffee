@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05d87261-27e3-44a6-b3dc-96b608439eda" name="Changes" comment="Дополнен библиотекой QT">
+    <list default="true" id="05d87261-27e3-44a6-b3dc-96b608439eda" name="Changes" comment="Добавлен файл addEditCoffee.ui с новым окном, новая версия базы данных. В главном окне добавлена кнопка для добавления новой записи.">
+      <change afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/main.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addEditCoffeeForm.ui" beforeDir="false" afterPath="$PROJECT_DIR$/UI/addEditCoffeeForm.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffee.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/coffee.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.ui" beforeDir="false" afterPath="$PROJECT_DIR$/UI/main.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +61,9 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tanja\PycharmProjects\coffee" />
+      <recent name="C:\Users\tanja\PycharmProjects\coffee\release" />
+      <recent name="C:\Users\tanja\PycharmProjects\coffee\data" />
+      <recent name="C:\Users\tanja\PycharmProjects\coffee\UI" />
     </key>
   </component>
   <component name="RunManager">
@@ -65,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\tanja\PycharmProjects\coffee\release\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711464389046</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Было добавлено новое окно для добавления записей в базу данных. В main.py добавлен класс CoffeeForm, в котором реализуется дополнение бд">
+      <option name="closed" value="true" />
+      <created>1711471439536</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711471439536</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Добавлен файл addEditCoffee.ui с новым окном, новая версия базы данных. В главном окне добавлена кнопка для добавления новой записи.">
+      <option name="closed" value="true" />
+      <created>1711471545522</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711471545522</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +198,8 @@
     <MESSAGE value="Добавлен класс MainWindow, в котором реализована связь с базой данных и метод get_note для отображения информации из базы" />
     <MESSAGE value="Файл заполнен. Создан интерфейс окна" />
     <MESSAGE value="Дополнен библиотекой QT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Дополнен библиотекой QT" />
+    <MESSAGE value="Было добавлено новое окно для добавления записей в базу данных. В main.py добавлен класс CoffeeForm, в котором реализуется дополнение бд" />
+    <MESSAGE value="Добавлен файл addEditCoffee.ui с новым окном, новая версия базы данных. В главном окне добавлена кнопка для добавления новой записи." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен файл addEditCoffee.ui с новым окном, новая версия базы данных. В главном окне добавлена кнопка для добавления новой записи." />
   </component>
 </project>
